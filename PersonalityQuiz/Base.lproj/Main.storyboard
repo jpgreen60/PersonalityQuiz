@@ -204,19 +204,34 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWv-R0-VaS">
+                                <rect key="frame" x="20" y="84" width="335" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dNp-Ir-CEp">
+                                <rect key="frame" x="36" y="645" width="303" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="rMh-1Y-y9R" firstAttribute="trailing" secondItem="zff-La-8G9" secondAttribute="trailing" constant="20" id="CX5-Tt-Q38"/>
+                            <constraint firstItem="rMh-1Y-y9R" firstAttribute="bottom" secondItem="dNp-Ir-CEp" secondAttribute="bottom" constant="20" id="HVf-wC-64c"/>
                             <constraint firstItem="Goq-Rz-dDH" firstAttribute="top" secondItem="zff-La-8G9" secondAttribute="bottom" constant="30" id="S03-sT-5XB"/>
                             <constraint firstItem="zff-La-8G9" firstAttribute="centerY" secondItem="aFZ-k1-jLm" secondAttribute="centerY" id="Uhk-AG-ebE"/>
                             <constraint firstItem="Goq-Rz-dDH" firstAttribute="centerX" secondItem="aFZ-k1-jLm" secondAttribute="centerX" id="VEO-ne-m58"/>
                             <constraint firstItem="ZPH-jt-CuV" firstAttribute="centerY" secondItem="aFZ-k1-jLm" secondAttribute="centerY" id="X9h-xO-zmg"/>
+                            <constraint firstItem="dNp-Ir-CEp" firstAttribute="leading" secondItem="aFZ-k1-jLm" secondAttribute="leadingMargin" constant="20" id="YBE-FZ-fz1"/>
+                            <constraint firstItem="rMh-1Y-y9R" firstAttribute="trailing" secondItem="oWv-R0-VaS" secondAttribute="trailing" constant="20" id="d8f-w2-Q9R"/>
                             <constraint firstItem="4Zv-U6-ng2" firstAttribute="leading" secondItem="rMh-1Y-y9R" secondAttribute="leading" constant="20" id="dg6-qY-kti"/>
                             <constraint firstItem="rMh-1Y-y9R" firstAttribute="trailing" secondItem="4Zv-U6-ng2" secondAttribute="trailing" constant="20" id="eAf-Zh-aDI"/>
                             <constraint firstItem="zff-La-8G9" firstAttribute="leading" secondItem="rMh-1Y-y9R" secondAttribute="leading" constant="20" id="eKi-s3-XHn"/>
+                            <constraint firstItem="oWv-R0-VaS" firstAttribute="top" secondItem="rMh-1Y-y9R" secondAttribute="top" constant="20" id="jb0-fl-Kto"/>
                             <constraint firstItem="ZPH-jt-CuV" firstAttribute="leading" secondItem="rMh-1Y-y9R" secondAttribute="leading" constant="20" id="jml-u3-TDU"/>
                             <constraint firstItem="4Zv-U6-ng2" firstAttribute="centerY" secondItem="aFZ-k1-jLm" secondAttribute="centerY" id="l7b-2d-VEl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dNp-Ir-CEp" secondAttribute="trailing" constant="20" id="s8R-Ng-xoj"/>
+                            <constraint firstItem="oWv-R0-VaS" firstAttribute="leading" secondItem="rMh-1Y-y9R" secondAttribute="leading" constant="20" id="vYQ-zi-UXi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rMh-1Y-y9R"/>
                     </view>
